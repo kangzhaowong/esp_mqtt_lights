@@ -4,6 +4,6 @@ The project focuses on enhancing the user experience and operational efficiency 
 
 The core of the solution involves the integration of a single LED strip and an LED panel to visually communicate the robot’s operational status, such as emergency stop, charging, and litter picking modes. The ESP32 uses RTOS utilizing the RMT (Remote Control) channel, enabling the control of two LED strips simultaneously. Communication between the ESP32 and the external components is facilitated through MQTT topics, which are filtered and relayed from ROS topics by a Raspberry Pi.
 
-Code for the ESP32 (ESP-IDF Code) is located within the /tcp folder.
-Code for the RPI (Rust Code) is located within the /ros_mqtt_project folder.
+Code for the ESP32 (ESP-IDF Code) is located within the `/tcp` folder.<br/>
+Code for the RPI (Rust Code) is located within the `/ros_mqtt_project` folder.<br/>
 Instructions on how to assembly the hardware and setup the software is in the PDF(to be uploaded).
